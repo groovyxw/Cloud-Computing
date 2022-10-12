@@ -11,7 +11,6 @@
 ### Step1 Generate Randome Number Pairs
 Please refer to the file PiDataGenerator.java.
 
-
 ### Step2 Implement MapReduce Program
 Please refer to the file PiCalculation.java.
 
@@ -30,4 +29,5 @@ Please refer to [MapReduce_Setup_on_GCP.pdf](https://github.com/groovyxw/Cloud-C
 <img width="348" alt="mapreduce-pi" src="https://user-images.githubusercontent.com/52802567/195262755-0b8bee8b-a908-4494-853a-f14a46400be8.PNG">
 
 
-Google Slide: https://docs.google.com/presentation/d/1VizIgZzz7fJWitpQUCv7VIsy7DWDhqV6QK7YXmncXGI/edit#slide=id.gc6f90357f_0_0
+Google Slide:
+https://docs.google.com/presentation/d/1VizIgZzz7fJWitpQUCv7VIsy7DWDhqV6QK7YXmncXGI/edit?usp=sharing
