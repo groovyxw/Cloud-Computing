@@ -18,8 +18,11 @@ Please refer to the file PiCalculation.java.
 ### Step3 Set up GCP Hadoop Enviroment
 
 Cloud Platform: GCP
+
 OS: Ubuntu
+
 Software: Java8, Hadoop3.3.4, etc
+
 Please refer to [MapReduce_Setup_on_GCP.pdf](https://github.com/groovyxw/Cloud-Computing/files/9761978/MapReduce_Setup_on_GCP.pdf)
 
 
