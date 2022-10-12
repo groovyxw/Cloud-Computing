@@ -3,7 +3,7 @@
 ### Mathematic Estimation
 <img width="466" alt="Capture" src="https://user-images.githubusercontent.com/52802567/195259788-dde6c6ba-6602-4f72-86de-476ea9a4cc3a.PNG">
 
-### MapReduce Table
+### MapReduce Example Table
 <img width="351" alt="Capture" src="https://user-images.githubusercontent.com/52802567/195262673-95240a07-3bbf-4f3e-8077-06b0fe0b2c0e.PNG">
 
 
