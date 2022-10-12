@@ -8,18 +8,18 @@
 
 
 ## Implementation
-### Generate Randome Number Pairs
+### Step1 Generate Randome Number Pairs
 Please refer to the file PiDataGenerator.java.
 
 
-### Implement MapReduce Program
+### Step2 Implement MapReduce Program
 Please refer to the file PiCalculation.java.
 
-### Set up GCP Hadoop Enviroment
+### Step3 Set up GCP Hadoop Enviroment
 Please refer to [MapReduce_Setup_on_GCP.pdf](https://github.com/groovyxw/Cloud-Computing/files/9761978/MapReduce_Setup_on_GCP.pdf)
 
 
-## Test Result
+### Step4 Test & Result
 <img width="348" alt="mapreduce-pi" src="https://user-images.githubusercontent.com/52802567/195262755-0b8bee8b-a908-4494-853a-f14a46400be8.PNG">
 
 
