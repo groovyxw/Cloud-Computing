@@ -15,10 +15,6 @@ Please refer to the file PiDataGenerator.java.
 ### Implement MapReduce Program
 Please refer to the file PiCalculation.java.
 
-<img width="551" alt="1" src="https://user-images.githubusercontent.com/52802567/195261710-4a494f89-012b-42a6-a31e-d0d18ef32032.PNG">
-
-<img width="415" alt="11" src="https://user-images.githubusercontent.com/52802567/195261736-645bc0b1-88ad-4fb6-8630-2b1d50aae72c.PNG">
-
 ### Set up GCP Hadoop Enviroment
 Please refer to [MapReduce_Setup_on_GCP.pdf](https://github.com/groovyxw/Cloud-Computing/files/9761978/MapReduce_Setup_on_GCP.pdf)
 
@@ -27,4 +23,4 @@ Please refer to [MapReduce_Setup_on_GCP.pdf](https://github.com/groovyxw/Cloud-C
 <img width="348" alt="mapreduce-pi" src="https://user-images.githubusercontent.com/52802567/195262755-0b8bee8b-a908-4494-853a-f14a46400be8.PNG">
 
 
-Google Slide: 
+Google Slide: https://docs.google.com/presentation/d/1VizIgZzz7fJWitpQUCv7VIsy7DWDhqV6QK7YXmncXGI/edit#slide=id.gc6f90357f_0_0
