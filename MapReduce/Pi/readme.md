@@ -29,5 +29,5 @@ Please refer to [MapReduce_Setup_on_GCP.pdf](https://github.com/groovyxw/Cloud-C
 <img width="348" alt="mapreduce-pi" src="https://user-images.githubusercontent.com/52802567/195262755-0b8bee8b-a908-4494-853a-f14a46400be8.PNG">
 
 
-Google Slide:
+### Google Slide:
 https://docs.google.com/presentation/d/1VizIgZzz7fJWitpQUCv7VIsy7DWDhqV6QK7YXmncXGI/edit?usp=sharing
