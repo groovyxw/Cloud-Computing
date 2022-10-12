@@ -1,4 +1,4 @@
-# Pi Calculation
+# Pi Calculation using MapReduce on GCP
 ## Design
 ### Mathematic Estimation
 <img width="466" alt="Capture" src="https://user-images.githubusercontent.com/52802567/195259788-dde6c6ba-6602-4f72-86de-476ea9a4cc3a.PNG">
@@ -16,6 +16,10 @@ Please refer to the file PiDataGenerator.java.
 Please refer to the file PiCalculation.java.
 
 ### Step3 Set up GCP Hadoop Enviroment
+
+Cloud Platform: GCP
+OS: Ubuntu
+Software: Java8, Hadoop3.3.4, etc
 Please refer to [MapReduce_Setup_on_GCP.pdf](https://github.com/groovyxw/Cloud-Computing/files/9761978/MapReduce_Setup_on_GCP.pdf)
 
 
