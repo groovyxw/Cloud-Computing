@@ -25,7 +25,7 @@ Software: Java8, Hadoop3.3.4, etc
 Please refer to [MapReduce_Setup_on_GCP.pdf](https://github.com/groovyxw/Cloud-Computing/files/9761978/MapReduce_Setup_on_GCP.pdf)
 
 
-### Step4 Test & Result
+### Step4 Test & Run
 <img width="348" alt="mapreduce-pi" src="https://user-images.githubusercontent.com/52802567/195262755-0b8bee8b-a908-4494-853a-f14a46400be8.PNG">
 
 
