@@ -98,7 +98,7 @@ create build.sbt:
     version := "1.0" 
     scalaVersion := "2.12.14" 
     libraryDependencies += "org.apache.spark" %% "spark-core" % "3.1.3"
-    
+Notice: Please make sure the scala version and spark version are matching with your GCP Spark enviroment.
     
 put SparkPageRank.scala under correct directory:
 
