@@ -49,8 +49,8 @@ The algorithm maintains two datasets:
 
 # Testing
 ## Platform
-    Google Cloud Platform + Dataproc cluster compute engine instance + google storage bucket 
-    <img width="920" alt="Capture" src="https://user-images.githubusercontent.com/52802567/199407136-5ae8aab5-f2fe-42c7-bd2b-be1f84a19e05.PNG">
+Google Cloud Platform + Dataproc cluster compute engine instance + google storage bucket 
+<img width="920" alt="Capture" src="https://user-images.githubusercontent.com/52802567/199407136-5ae8aab5-f2fe-42c7-bd2b-be1f84a19e05.PNG">
 
 ## Files Preparation
 Step1. ssh login master cluster vm instance
@@ -67,43 +67,43 @@ Step2. Manually create input file pagerank_data.txt
     Note: hdfs:///mydata/pagerank_data.txt  --> input file
           10                                --> iteration number
 ### Result
-    <img width="567" alt="python_10th_iteration" src="https://user-images.githubusercontent.com/52802567/199409314-48b363cf-2cf2-447c-86e8-86f936d262d0.PNG">
+<img width="567" alt="python_10th_iteration" src="https://user-images.githubusercontent.com/52802567/199409314-48b363cf-2cf2-447c-86e8-86f936d262d0.PNG">
 
     
 ### For SparkPageRank.scala:
-    Install SBT
-        $ echo "deb https://repo.scala-sbt.org/scalasbt/debian all main" | sudo tee /etc/apt/sources.list.d/sbt.list
-        $ echo "deb https://repo.scala-sbt.org/scalasbt/debian /" | sudo tee /etc/apt/sources.list.d/sbt_old.list
-        $ curl -sL "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x2EE0EA64E40A89B84B2DF73499E82A75642AC823" | sudo apt-key add
-        $ sudo apt-get update
-        $ sudo apt-get install sbt
+Install SBT
+    $ echo "deb https://repo.scala-sbt.org/scalasbt/debian all main" | sudo tee /etc/apt/sources.list.d/sbt.list
+    $ echo "deb https://repo.scala-sbt.org/scalasbt/debian /" | sudo tee /etc/apt/sources.list.d/sbt_old.list
+    $ curl -sL "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x2EE0EA64E40A89B84B2DF73499E82A75642AC823" | sudo apt-key add
+    $ sudo apt-get update
+    $ sudo apt-get install sbt
         
-    Create JAR file:
-        create build.sbt:
-            name := "Simple Project" 
-            version := "1.0" 
-            scalaVersion := "2.12.14" 
-            libraryDependencies += "org.apache.spark" %% "spark-core" % "3.1.3"
-        put SparkPageRank.scala under correct directory:
-            mkdir src
-            cd src
-            mkdir main
-            cd main
-            mkdir scala
-            cd scala
-            cp ~/SparkPageRank.scala .
-         back to the up 3 level parent directory(same as the directory which build.sbt is under:
-            cd ../../../
-         create a jar file
-            sbt package
+Create JAR file:
+create build.sbt:
+        name := "Simple Project" 
+        version := "1.0" 
+        scalaVersion := "2.12.14" 
+        libraryDependencies += "org.apache.spark" %% "spark-core" % "3.1.3"
+put SparkPageRank.scala under correct directory:
+        mkdir src
+        cd src
+        mkdir main
+        cd main
+        mkdir scala
+        cd scala
+        cp ~/SparkPageRank.scala .
+back to the up 3 level parent directory(same as the directory which build.sbt is under:
+        cd ../../../
+create a jar file
+        sbt package
             
-    Upload jar file and input file into the google storage
-        gsutil cp pagerank_data.txt gs://my-bucket-0715
-        gsutil cp target/scala-2.12/simple-project_2.12-1.0.jar gs://my-bucket-0715
-    Run gcloud command
-        gcloud dataproc jobs submit spark --cluster=cluster-0715 --region=us-west1 --jars=gs://my-bucket-0715/simple-project_2.12-1.0.jar --class=org.apache.spark.examples.SparkPageRank -- gs://my-bucket-0715/pagerank_data.txt 10
-    Note: gs://my-bucket-0715/pagerank_data.txt  --> input file
-          10                                     --> iteration number
+Upload jar file and input file into the google storage
+    gsutil cp pagerank_data.txt gs://my-bucket-0715
+    gsutil cp target/scala-2.12/simple-project_2.12-1.0.jar gs://my-bucket-0715
+Run gcloud command
+    gcloud dataproc jobs submit spark --cluster=cluster-0715 --region=us-west1 --jars=gs://my-bucket-0715/simple-project_2.12-1.0.jar --class=org.apache.spark.examples.SparkPageRank -- gs://my-bucket-0715/pagerank_data.txt 10
+Note: gs://my-bucket-0715/pagerank_data.txt  --> input file
+      10                                     --> iteration number
 ### Result 
     <img width="496" alt="scala_10_new" src="https://user-images.githubusercontent.com/52802567/199409573-f5fc023a-25d6-488d-a251-057f7b863bbc.PNG">
 
