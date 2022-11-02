@@ -117,7 +117,8 @@ back to the up 3 level parent directory(same as the directory which build.sbt is
 create a jar file
 
     sbt package
-            
+You can find the *.jar file under ./target/scala-2.12/.
+
 #### Upload jar file and input file into the google storage
 
     gsutil cp pagerank_data.txt gs://my-bucket-0715
