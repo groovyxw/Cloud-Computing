@@ -37,10 +37,10 @@ The algorithm maintains two datasets:
     (pageID, rank) elements containing the current rank for each page.
 
 ## Input links file format:
-    A, B
-    A, C
-    B, C
-    C, A
+    A B
+    A C
+    B C
+    C A
     
 ## RDD transformation:
 <img width="454" alt="Capture" src="https://user-images.githubusercontent.com/52802567/199406102-07128d28-6d55-45a5-8bae-0ca1a4f0dc98.PNG">
@@ -64,10 +64,10 @@ Step1. ssh login master cluster vm instance
 
 Step2. Manually create input file pagerank_data.txt
 
-       A, B
-       A, C
-       B, C
-       C, A
+       A B
+       A C
+       B C
+       C A
 ## How to Run?
 ### For pagerank.py:
 
