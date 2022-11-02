@@ -7,7 +7,9 @@ In this project, we will use a simplified version to implement pagerank in both 
 <img width="234" alt="Capture" src="https://user-images.githubusercontent.com/52802567/199405437-fa198b68-6706-4c01-9a17-60e411ace3a5.PNG">
 
 ## Basic theory
+
 The initial PageRank value for each webpage is 1.
+
     PR(A) = 1
     PR(B) = 1
     PR(C) = 1
@@ -26,8 +28,11 @@ The initial PageRank value for each webpage is 1.
     Damping factor is 0.85
 
 ## Methodology    
+
 An iterative algorithm that performs many joins, so it is a good use case for RDD partitioning.
+
 The algorithm maintains two datasets:
+
     (pageID, linkList) elements containing the list of neighbors of each page,
     (pageID, rank) elements containing the current rank for each page.
 
@@ -50,10 +55,13 @@ The algorithm maintains two datasets:
 # Testing
 ## Platform
 Google Cloud Platform + Dataproc cluster compute engine instance + google storage bucket 
+
 <img width="920" alt="Capture" src="https://user-images.githubusercontent.com/52802567/199407136-5ae8aab5-f2fe-42c7-bd2b-be1f84a19e05.PNG">
 
 ## Files Preparation
+
 Step1. ssh login master cluster vm instance
+
 Step2. Manually create input file pagerank_data.txt
        A, B
        A, C
@@ -108,7 +116,7 @@ create a jar file
     gsutil cp pagerank_data.txt gs://my-bucket-0715
     gsutil cp target/scala-2.12/simple-project_2.12-1.0.jar gs://my-bucket-0715
     
-Run gcloud command
+#### Run gcloud command
 
     gcloud dataproc jobs submit spark --cluster=cluster-0715 --region=us-west1 --jars=gs://my-bucket-0715/simple-project_2.12-1.0.jar --class=org.apache.spark.examples.SparkPageRank -- gs://my-bucket-0715/pagerank_data.txt 10
     Note: 
