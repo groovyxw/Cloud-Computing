@@ -80,31 +80,36 @@ Install SBT
         
 Create JAR file:
 create build.sbt:
-        name := "Simple Project" 
-        version := "1.0" 
-        scalaVersion := "2.12.14" 
-        libraryDependencies += "org.apache.spark" %% "spark-core" % "3.1.3"
+    name := "Simple Project" 
+    version := "1.0" 
+    scalaVersion := "2.12.14" 
+    libraryDependencies += "org.apache.spark" %% "spark-core" % "3.1.3"
 put SparkPageRank.scala under correct directory:
-        mkdir src
-        cd src
-        mkdir main
-        cd main
-        mkdir scala
-        cd scala
-        cp ~/SparkPageRank.scala .
+    mkdir src
+    cd src
+    mkdir main
+    cd main
+    mkdir scala
+    cd scala
+    cp ~/SparkPageRank.scala .
 back to the up 3 level parent directory(same as the directory which build.sbt is under:
-        cd ../../../
+    cd ../../../
 create a jar file
-        sbt package
+    sbt package
             
 Upload jar file and input file into the google storage
+
     gsutil cp pagerank_data.txt gs://my-bucket-0715
     gsutil cp target/scala-2.12/simple-project_2.12-1.0.jar gs://my-bucket-0715
+    
 Run gcloud command
+
     gcloud dataproc jobs submit spark --cluster=cluster-0715 --region=us-west1 --jars=gs://my-bucket-0715/simple-project_2.12-1.0.jar --class=org.apache.spark.examples.SparkPageRank -- gs://my-bucket-0715/pagerank_data.txt 10
+    
 Note: gs://my-bucket-0715/pagerank_data.txt  --> input file
       10                                     --> iteration number
 ### Result 
+
     <img width="496" alt="scala_10_new" src="https://user-images.githubusercontent.com/52802567/199409573-f5fc023a-25d6-488d-a251-057f7b863bbc.PNG">
 
 
