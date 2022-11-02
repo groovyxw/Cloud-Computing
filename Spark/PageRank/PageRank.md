@@ -106,9 +106,11 @@ put SparkPageRank.scala under correct directory:
     cp ~/SparkPageRank.scala .
     
 back to the up 3 level parent directory(same as the directory which build.sbt is under:
+
     cd ../../../
     
 create a jar file
+
     sbt package
             
 #### Upload jar file and input file into the google storage
