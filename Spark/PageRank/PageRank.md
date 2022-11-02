@@ -137,4 +137,4 @@ gs://my-bucket-0715/pagerank_data.txt  --> input file
 
 
 # Presentation
-https://docs.google.com/presentation/d/1nGF3BMhWOEujmbXNh2yDkfbr1aNsvn5A-FFt1W8t4oo/edit?usp=sharing
+[PageRank in Spark](https://docs.google.com/presentation/d/1nGF3BMhWOEujmbXNh2yDkfbr1aNsvn5A-FFt1W8t4oo/edit?usp=sharing)
