@@ -66,19 +66,19 @@ Step2. Manually create input file pagerank_data.txt
     spark-submit hdfs:///mydata/pagerank.py hdfs:///mydata/pagerank_data.txt 10
     Note: hdfs:///mydata/pagerank_data.txt  --> input file
           10                                --> iteration number
-### Result
+### Result for 10th iteration
 <img width="567" alt="python_10th_iteration" src="https://user-images.githubusercontent.com/52802567/199409314-48b363cf-2cf2-447c-86e8-86f936d262d0.PNG">
 
     
 ### For SparkPageRank.scala:
-Install SBT
+#### Install SBT
     echo "deb https://repo.scala-sbt.org/scalasbt/debian all main" | sudo tee /etc/apt/sources.list.d/sbt.list
     echo "deb https://repo.scala-sbt.org/scalasbt/debian /" | sudo tee /etc/apt/sources.list.d/sbt_old.list
     curl -sL "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x2EE0EA64E40A89B84B2DF73499E82A75642AC823" | sudo apt-key add
     sudo apt-get update
     sudo apt-get install sbt
         
-Create JAR file:
+#### Create JAR file:
 
 create build.sbt:
 
@@ -103,7 +103,7 @@ back to the up 3 level parent directory(same as the directory which build.sbt is
 create a jar file
     sbt package
             
-Upload jar file and input file into the google storage
+#### Upload jar file and input file into the google storage
 
     gsutil cp pagerank_data.txt gs://my-bucket-0715
     gsutil cp target/scala-2.12/simple-project_2.12-1.0.jar gs://my-bucket-0715
@@ -111,10 +111,11 @@ Upload jar file and input file into the google storage
 Run gcloud command
 
     gcloud dataproc jobs submit spark --cluster=cluster-0715 --region=us-west1 --jars=gs://my-bucket-0715/simple-project_2.12-1.0.jar --class=org.apache.spark.examples.SparkPageRank -- gs://my-bucket-0715/pagerank_data.txt 10
-    Note: gs://my-bucket-0715/pagerank_data.txt  --> input file
-      10                                     --> iteration number
+    Note: 
+    gs://my-bucket-0715/pagerank_data.txt  --> input file
+    10                                     --> iteration number
 
-### Result 
+### Result for 10th iteration
 
 <img width="496" alt="scala_10_new" src="https://user-images.githubusercontent.com/52802567/199409573-f5fc023a-25d6-488d-a251-057f7b863bbc.PNG">
 
