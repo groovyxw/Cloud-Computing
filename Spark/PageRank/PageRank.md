@@ -63,17 +63,21 @@ Google Cloud Platform + Dataproc cluster compute engine instance + google storag
 Step1. ssh login master cluster vm instance
 
 Step2. Manually create input file pagerank_data.txt
+
        A, B
        A, C
        B, C
        C, A
 ## How to Run?
 ### For pagerank.py:
+
     hdfs dfs -mkdir hdfs:///mydata
     hdfs dfs -put pagerank_data.txt
     spark-submit hdfs:///mydata/pagerank.py hdfs:///mydata/pagerank_data.txt 10
-    Note: hdfs:///mydata/pagerank_data.txt  --> input file
-          10                                --> iteration number
+    
+Note: 
+hdfs:///mydata/pagerank_data.txt  --> input file
+10                                --> iteration number
 ### Result for 10th iteration
 <img width="567" alt="python_10th_iteration" src="https://user-images.githubusercontent.com/52802567/199409314-48b363cf-2cf2-447c-86e8-86f936d262d0.PNG">
 
@@ -97,6 +101,7 @@ create build.sbt:
     
     
 put SparkPageRank.scala under correct directory:
+
     mkdir src
     cd src
     mkdir main
@@ -121,9 +126,10 @@ create a jar file
 #### Run gcloud command
 
     gcloud dataproc jobs submit spark --cluster=cluster-0715 --region=us-west1 --jars=gs://my-bucket-0715/simple-project_2.12-1.0.jar --class=org.apache.spark.examples.SparkPageRank -- gs://my-bucket-0715/pagerank_data.txt 10
-    Note: 
-    gs://my-bucket-0715/pagerank_data.txt  --> input file
-    10                                     --> iteration number
+
+Note: 
+gs://my-bucket-0715/pagerank_data.txt  --> input file
+10                                     --> iteration number
 
 ### Result for 10th iteration
 
