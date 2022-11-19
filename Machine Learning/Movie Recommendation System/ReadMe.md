@@ -36,6 +36,7 @@ Add one line to install pyspark at the very beginning:
 
     !pip3 install pyspark
     
+Please refer to this file for details.
 4> Do the experiment on Colab
 
 Run the code snippnet one by one, final result as below:
@@ -52,6 +53,21 @@ File --> Download --> Download .py
 File --> Save (right click) --> Save as (click)
 
 ## Step4: Run the py file (we just saved in last step) on GCP
+
+1> Create a project "" on GCP
+
+2> Create a instance on GCP
+
+3> Upload all needed files
+
+4> Pyspark run
+
+
+
+
+
+
+
 
 
 
