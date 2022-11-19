@@ -17,14 +17,14 @@ Overview Link: [Google Colab](https://hc.labnet.sfbu.edu/~henry/npu/classes/mach
     
 ## Step3: Experiment Pyspark code (ipynb) of PySpark Collaborative Filtering with ALS
 
-#### 1> Download the ipynb file
+#### 1> Download the ipynb file from Github
 
 Code --> Download ZIP
 
 <img width="638" alt="7" src="https://user-images.githubusercontent.com/52802567/202846220-a915b36c-a853-4a2f-99bc-a4693e407807.PNG">
 
 
-#### 2> Upload the file to your Colab
+#### 2> Upload the ipynb file to your Colab
 
 File --> Upload notebook
 
@@ -38,13 +38,13 @@ Add one line to install pyspark at the very beginning:
     
 Please refer to this [file](https://github.com/groovyxw/Cloud-Computing/blob/main/Machine%20Learning/Movie%20Recommendation%20System/Recommendation_Engine_MovieLens.ipynb) for details.
 
-#### 4> Upload data files into Colab
+#### 4> Upload input data files into Colab
 
 File --> ?????????????????
 
 #### 5> Do the experiment on Colab
 
-Run the code snippnet one by one, final result as below:
+Run the code snippet one by one, final result as below:
 
 <img width="449" alt="Capture" src="https://user-images.githubusercontent.com/52802567/202846547-a5887c2f-fdd7-4ef1-99dd-e5a4b2429414.PNG">
 
