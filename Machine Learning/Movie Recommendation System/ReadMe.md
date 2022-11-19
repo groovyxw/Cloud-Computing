@@ -38,18 +38,22 @@ Add one line to install pyspark at the very beginning:
     
 Please refer to this [file](https://github.com/groovyxw/Cloud-Computing/blob/main/Machine%20Learning/Movie%20Recommendation%20System/Recommendation_Engine_MovieLens.ipynb) for details.
 
-4> Do the experiment on Colab
+4> Upload data files into Colab
+
+File --> ?????????????????
+
+5> Do the experiment on Colab
 
 Run the code snippnet one by one, final result as below:
 
 <img width="449" alt="Capture" src="https://user-images.githubusercontent.com/52802567/202846547-a5887c2f-fdd7-4ef1-99dd-e5a4b2429414.PNG">
 
-5> Save file as .py file on Colab
+6> Save file as .py file on Colab
 
 File --> Download --> Download .py
 
 
-6> Save file as .html file
+7> Save file as .html file
 
 File --> Save (right click) --> Save as (click)
 
