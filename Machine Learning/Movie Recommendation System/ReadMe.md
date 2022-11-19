@@ -17,20 +17,20 @@ Overview Link: [Google Colab](https://hc.labnet.sfbu.edu/~henry/npu/classes/mach
     
 ## Step3: Experiment Pyspark code (ipynb) of PySpark Collaborative Filtering with ALS
 
-1> Download the ipynb file
+### 1> Download the ipynb file
 
 Code --> Download ZIP
 
 <img width="638" alt="7" src="https://user-images.githubusercontent.com/52802567/202846220-a915b36c-a853-4a2f-99bc-a4693e407807.PNG">
 
 
-2> Upload the file to your Colab
+### 2> Upload the file to your Colab
 
 File --> Upload notebook
 
 <img width="695" alt="8" src="https://user-images.githubusercontent.com/52802567/202846225-50889c1d-a11e-4488-93ae-fcc4638e7df4.PNG">
 
-3> Modify the code on your Colab
+### 3> Modify the code on your Colab
 
 Add one line to install pyspark at the very beginning:
 
@@ -38,30 +38,30 @@ Add one line to install pyspark at the very beginning:
     
 Please refer to this [file](https://github.com/groovyxw/Cloud-Computing/blob/main/Machine%20Learning/Movie%20Recommendation%20System/Recommendation_Engine_MovieLens.ipynb) for details.
 
-4> Upload data files into Colab
+### 4> Upload data files into Colab
 
 File --> ?????????????????
 
-5> Do the experiment on Colab
+### 5> Do the experiment on Colab
 
 Run the code snippnet one by one, final result as below:
 
 <img width="449" alt="Capture" src="https://user-images.githubusercontent.com/52802567/202846547-a5887c2f-fdd7-4ef1-99dd-e5a4b2429414.PNG">
 
-6> Save file as .py file on Colab
+### 6> Save file as .py file on Colab
 
 File --> Download --> Download .py
 
 
-7> Save file as .html file
+### 7> Save file as .html file
 
 File --> Save (right click) --> Save as (click)
 
-## Step4: Run the py file (we just saved in last step) on GCP
+## Step4: Run the py file (just saved in last step) on GCP
 
 1> Create a project "" on GCP
 
-2> Create a instance on GCP
+2> Create an instance on GCP
 
 3> Upload all needed files
 
