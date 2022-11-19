@@ -18,11 +18,13 @@ Overview Link: [Google Colab](https://hc.labnet.sfbu.edu/~henry/npu/classes/mach
 ## Step3: Experiment Pyspark code (ipynb) of PySpark Collaborative Filtering with ALS
 
 1> Download the ipynb file
+Code --> DownloadZIP
 
 <img width="638" alt="7" src="https://user-images.githubusercontent.com/52802567/202846220-a915b36c-a853-4a2f-99bc-a4693e407807.PNG">
 
 
 2> Upload the file to your colab
+File --> Upload notebook
 
 <img width="695" alt="8" src="https://user-images.githubusercontent.com/52802567/202846225-50889c1d-a11e-4488-93ae-fcc4638e7df4.PNG">
 
