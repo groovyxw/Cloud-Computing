@@ -16,3 +16,9 @@ Overview Link: [Google Colab](https://hc.labnet.sfbu.edu/~henry/npu/classes/mach
 2> Click this [the colab page link](https://colab.research.google.com/notebooks/intro.ipynb#recent=true)
     
 ## Step3: Experiment Pyspark code (ipynb) of PySpark Collaborative Filtering with ALS
+
+1> Download the ipynb file
+
+2> Upload the file to your colab
+
+3> 
