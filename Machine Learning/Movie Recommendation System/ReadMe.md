@@ -33,6 +33,7 @@ File --> Upload notebook
 3> Modify the code on your Colab
 
 Add one line to install pyspark at the very beginning:
+
     !pip3 install pyspark
     
 4> Do the experiment on Colab
@@ -43,7 +44,7 @@ Run the code snippnet one by one, final result as below:
 
 5> Save file as .py file on Colab
 
-File --> Download --> Download py
+File --> Download --> Download .py
 
 
 6> Save file as .html file
