@@ -36,7 +36,8 @@ Add one line to install pyspark at the very beginning:
 
     !pip3 install pyspark
     
-Please refer to this file for details.
+Please refer to this [file](https://github.com/groovyxw/Cloud-Computing/blob/main/Machine%20Learning/Movie%20Recommendation%20System/Recommendation_Engine_MovieLens.ipynb) for details.
+
 4> Do the experiment on Colab
 
 Run the code snippnet one by one, final result as below:
