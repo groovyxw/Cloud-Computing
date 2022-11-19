@@ -21,7 +21,8 @@ Overview Link: [Google Colab](https://hc.labnet.sfbu.edu/~henry/npu/classes/mach
 
 Code --> Download ZIP
 
-<img width="638" alt="7" src="https://user-images.githubusercontent.com/52802567/202846220-a915b36c-a853-4a2f-99bc-a4693e407807.PNG">
+<img width="333" alt="9" src="https://user-images.githubusercontent.com/52802567/202865854-aec5f164-066b-4fe3-90a8-1906444e9235.PNG">
+
 
 
 #### 2> Upload the ipynb file to your Colab
