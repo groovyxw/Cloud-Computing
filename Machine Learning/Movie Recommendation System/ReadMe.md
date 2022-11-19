@@ -9,9 +9,10 @@ Pyspark Link: [Recommendation_Engine_MovieLens](https://github.com/snehalnair/al
 
 Overview Link: [Google Colab](https://hc.labnet.sfbu.edu/~henry/npu/classes/machine_learning/colab/slide/index_slide.html)
 
-### How to run colab?
+### How to start colab?
 
 1> Login your google account
+
 2> Click this [the colab page link](https://colab.research.google.com/notebooks/intro.ipynb#recent=true)
     
 ## Step3: Experiment Pyspark code (ipynb) of PySpark Collaborative Filtering with ALS
