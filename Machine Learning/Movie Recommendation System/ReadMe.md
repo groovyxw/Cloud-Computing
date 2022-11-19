@@ -28,7 +28,8 @@ Code --> Download ZIP
 
 File --> Upload notebook
 
-<img width="695" alt="8" src="https://user-images.githubusercontent.com/52802567/202846225-50889c1d-a11e-4488-93ae-fcc4638e7df4.PNG">
+<img width="685" alt="7" src="https://user-images.githubusercontent.com/52802567/202865692-69a015c2-194f-4c27-bb90-35608021fc12.PNG">
+
 
 #### 3> Modify the code on your Colab
 
@@ -40,7 +41,10 @@ Please refer to this [file](https://github.com/groovyxw/Cloud-Computing/blob/mai
 
 #### 4> Upload input data files into Colab
 
-File --> ?????????????????
+Files --> upload
+
+<img width="387" alt="8" src="https://user-images.githubusercontent.com/52802567/202865705-004d7339-8ef4-4482-8942-704eb7e9e4b2.PNG">
+
 
 #### 5> Do the experiment on Colab
 
