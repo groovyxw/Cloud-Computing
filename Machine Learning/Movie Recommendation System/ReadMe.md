@@ -49,7 +49,19 @@ Files --> upload
 
 #### 5> Do the experiment on Colab
 
-Run the code snippet one by one, final result as below:
+Run the code snippet one by one.
+
+Best Model:
+
+<img width="142" alt="5" src="https://user-images.githubusercontent.com/52802567/203273774-66c7a354-baf7-4ee0-b7df-422d039edb85.PNG">
+
+
+Recommendation:
+
+<img width="285" alt="5" src="https://user-images.githubusercontent.com/52802567/203273606-e75a6cfc-a8da-4732-9ee2-4e76f6c2913c.PNG">
+
+
+Evaluation:
 
 <img width="449" alt="Capture" src="https://user-images.githubusercontent.com/52802567/202846547-a5887c2f-fdd7-4ef1-99dd-e5a4b2429414.PNG">
 
