@@ -56,7 +56,7 @@ Run the code snippet one by one, final result as below:
 #### 6> Save file as .py file on Colab
 
 File --> Download --> Download .py
-Please refer to this (file)[https://github.com/groovyxw/Cloud-Computing/blob/main/Machine%20Learning/Movie%20Recommendation%20System/recommendation_engine_movielens.py].
+Please refer to [recommendation_engine_movielens.py](https://github.com/groovyxw/Cloud-Computing/blob/main/Machine%20Learning/Movie%20Recommendation%20System/recommendation_engine_movielens.py).
 
 #### 7> Save file as .html file
 
