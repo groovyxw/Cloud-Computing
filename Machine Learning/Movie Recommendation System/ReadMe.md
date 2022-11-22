@@ -56,6 +56,7 @@ Run the code snippet one by one, final result as below:
 #### 6> Save file as .py file on Colab
 
 File --> Download --> Download .py
+
 Please refer to [recommendation_engine_movielens.py](https://github.com/groovyxw/Cloud-Computing/blob/main/Machine%20Learning/Movie%20Recommendation%20System/recommendation_engine_movielens.py).
 
 #### 7> Save file as .html file
@@ -80,6 +81,7 @@ File --> Save (right click) --> Save as (click)
 
 
 4> Pyspark run
+Notice: Comment out prspark installation line in *.py file.
 
 
 
