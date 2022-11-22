@@ -64,10 +64,12 @@ File --> Save (right click) --> Save as (click)
 
 ## Step4: Run the py file (just saved in last step) on GCP
 
-1> Create a project "" on GCP
+1> Create a project on GCP
+
 <img width="421" alt="24" src="https://user-images.githubusercontent.com/52802567/203263154-731a07d2-ffd8-4aa9-b90d-888e515040c2.PNG">
 
-2> Create an instance on GCP
+
+2> Create an Dataproc Cluster instance based on compute engine on GCP
 
 <img width="871" alt="22" src="https://user-images.githubusercontent.com/52802567/203263239-795807dd-1e78-4f2a-9098-50f305ae9c5c.PNG">
 
