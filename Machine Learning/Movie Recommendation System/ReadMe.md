@@ -65,10 +65,17 @@ File --> Save (right click) --> Save as (click)
 ## Step4: Run the py file (just saved in last step) on GCP
 
 1> Create a project "" on GCP
+<img width="421" alt="24" src="https://user-images.githubusercontent.com/52802567/203263154-731a07d2-ffd8-4aa9-b90d-888e515040c2.PNG">
 
 2> Create an instance on GCP
 
-3> Upload all needed files
+<img width="871" alt="22" src="https://user-images.githubusercontent.com/52802567/203263239-795807dd-1e78-4f2a-9098-50f305ae9c5c.PNG">
+
+
+3> Create a bucket and Upload all files 
+
+<img width="910" alt="23" src="https://user-images.githubusercontent.com/52802567/203263329-d486ea0e-8c9f-4f9a-ae5e-acdf613fd62d.PNG">
+
 
 4> Pyspark run
 
