@@ -12,7 +12,7 @@ Original file is located at
 """
 
 #https://grouplens.org/datasets/movielens/
-!pip3 install pyspark
+#!pip3 install pyspark
 
 import pandas as pd
 from pyspark.sql.functions import col, explode
