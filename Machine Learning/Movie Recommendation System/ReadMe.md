@@ -112,6 +112,9 @@ Evaluation:
 
 <img width="404" alt="3" src="https://user-images.githubusercontent.com/52802567/203270689-a5f60dc1-cf43-435b-adf7-bab87d755b94.PNG">
 
+## Step5: Shutdown the project on GCP
+
+<img width="407" alt="5" src="https://user-images.githubusercontent.com/52802567/203274692-56475929-acc3-45af-9446-7bf1c8d3b561.PNG">
 
 
 ## Presenstation
