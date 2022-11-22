@@ -83,12 +83,22 @@ File --> Save (right click) --> Save as (click)
 4> Pyspark run
 Notice: Comment out prspark installation line in *.py file.
 
+<img width="530" alt="4" src="https://user-images.githubusercontent.com/52802567/203270445-13324371-2c65-4e92-b7e6-5ef1a67e636f.PNG">
+
+Best Model:
+
+
+<img width="210" alt="1" src="https://user-images.githubusercontent.com/52802567/203270485-e9306b72-73d0-462c-8fb8-d57d0f40e780.PNG">
+
+Evaluation:
+
+
+<img width="404" alt="3" src="https://user-images.githubusercontent.com/52802567/203270689-a5f60dc1-cf43-435b-adf7-bab87d755b94.PNG">
 
 
 
-
-
-
+## Presenstation
+[]()
 
 Reference links:
 https://colab.research.google.com/drive/1G894WS7ltIUTusWWmsCnF_zQhQqZCDOc
