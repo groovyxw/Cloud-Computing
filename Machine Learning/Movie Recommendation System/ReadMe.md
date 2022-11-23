@@ -1,8 +1,15 @@
 # Movie Recommandation System
 ## Description
 Recommender System is an information filtering tool that seeks to predict which product a user will like, and based on that, recommends a few products to the users.
+The two widely used approaches for building a recommender system are content-based filtering (CBF) and collaborative filtering (CF).
+
+<img width="543" alt="Capture" src="https://user-images.githubusercontent.com/52802567/203481612-7694bb01-22fd-4f52-af00-e0b6b4c46319.PNG">
 
 This project is a Movie Recommendation system with MLlib - Collaborative Filtering
+
+
+
+
 
 ## Impementation
 ## Step1: Study PySpark Collaborative Filtering with ALS
