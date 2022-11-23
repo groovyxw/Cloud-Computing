@@ -1,5 +1,10 @@
 # Movie Recommandation System
+## Description
+Recommender System is an information filtering tool that seeks to predict which product a user will like, and based on that, recommends a few products to the users.
 
+This project is a Movie Recommendation system with MLlib - Collaborative Filtering
+
+## Impementation
 ## Step1: Study PySpark Collaborative Filtering with ALS
 Link: [PySpark Collaborative Filtering with ALS](https://towardsdatascience.com/build-recommendation-system-with-pyspark-using-alternating-least-squares-als-matrix-factorisation-ebe1ad2e7679)
 
