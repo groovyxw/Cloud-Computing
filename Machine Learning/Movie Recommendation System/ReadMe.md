@@ -130,7 +130,7 @@ Evaluation:
 
 
 ## Presenstation
-[]()
+[Movie Recommandation System with CF ALS](https://docs.google.com/presentation/d/1WSnuXpPGpJB9MrOtfagngV1AzeKy61Ro9LZi4p6I0to/edit?usp=sharing)
 
 Reference links:
 https://colab.research.google.com/drive/1G894WS7ltIUTusWWmsCnF_zQhQqZCDOc
