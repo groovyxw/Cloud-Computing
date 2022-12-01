@@ -31,7 +31,10 @@
   <img width="287" alt="3" src="https://user-images.githubusercontent.com/52802567/205167081-49e541df-4dfc-4bcf-8368-c59c47f5fda8.PNG">
 
 
-## Step3:
+## Step3: Connecting the Dots (Python, Spark, and Kafka)
+
+
+
 
 ## Presentation
 
