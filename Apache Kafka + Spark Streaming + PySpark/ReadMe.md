@@ -33,7 +33,10 @@
 
 ## Step3: Connecting the Dots (Python, Spark, and Kafka)
 
-
+  #. Discuss the steps to perform to setup Apache Spark in a Linux environment.
+  Starting Kafka (for more details, please refer to this article).
+  Creating a PySpark app for consume and process the events and write back to Kafka.
+  Steps to produce and consume events using Kafka-Python.
 
 
 ## Presentation
