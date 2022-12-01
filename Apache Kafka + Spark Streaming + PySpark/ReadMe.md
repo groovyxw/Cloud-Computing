@@ -18,7 +18,17 @@
   Download: https://kafka.apache.org/downloads
   
 
-## Step2: Study the basic concepts about Spark Streaming by this [link]()
+## Step2: Study the basic concepts about Spark Streaming by this [link](https://spark.apache.org/docs/latest/streaming-programming-guide.html)
+
+  Spark Streaming provides a high-level abstraction called discretized stream (DStream), which represents a continuous stream of data.
+  DStreams can be created from input data streams from sources such as Kafka, Flume, and Kinesis, or by applying high-level operations on other DStreams.
+  Internally, a DStream is represented as a sequence of RDDs.
+  
+  <img width="440" alt="2" src="https://user-images.githubusercontent.com/52802567/205167052-8ceda34a-b59a-4a8e-b560-3f7d5e094bc8.PNG">
+  
+  One example (WordCount with Streaming): 
+  <img width="287" alt="3" src="https://user-images.githubusercontent.com/52802567/205167081-49e541df-4dfc-4bcf-8368-c59c47f5fda8.PNG">
+
 
 ## Step3:
 
