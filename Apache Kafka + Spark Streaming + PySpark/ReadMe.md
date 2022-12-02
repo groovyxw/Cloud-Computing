@@ -41,25 +41,25 @@
   
   Steps to produce and consume events using Kafka-Python.
 
-### Installing Spark https://spark.apache.org/downloads.html
-
+### Installing Spark which is availabe at https://spark.apache.org/downloads.html
+  #### download the package and unpack it
   $ wget https://dlcdn.apache.org/spark/spark-3.3.1/spark-3.3.1-bin-hadoop3.tgz
   
   $ tar -xvf spark-3.3.1-bin-hadoop3.tgz
   
   <img width="632" alt="download_spark_2" src="https://user-images.githubusercontent.com/52802567/205380060-38fedaac-401f-42aa-87e3-fdfc10d2c003.PNG">
 
-  
+  #### create a soft link
   $ ln -s /home/cindy/cs570/spark-3.3.1-bin-hadoop3 /home/cindy/cs570/spark
   
-  #set spark related environment varibales
+  #### set spark related environment varibales
   SPARK_HOME="/home/cindy/cs570/spark"
   export PATH=$SPARK_HOME/bin:$PATH
   export PATH=$SPARK_HOME/sbin:$PATH
   
   <img width="526" alt="download_spark_3" src="https://user-images.githubusercontent.com/52802567/205380108-93ac0f90-4ef2-48ff-960a-4030b90243b7.PNG">
   
-  Verify the installation
+  #### Verify the installation
   
   $pyspark
   $ which java
@@ -81,7 +81,7 @@
   
   epxort JAVA_HOME=/usr/bin
   
-  Start pyspark
+  #### Start pyspark
   
   <img width="664" alt="start_spark" src="https://user-images.githubusercontent.com/52802567/205390660-432be9d4-ead5-4b8a-a40d-585a850ce19f.PNG">
 
