@@ -44,7 +44,9 @@
 ### Installing Spark https://spark.apache.org/downloads.html
 
   $ wget https://dlcdn.apache.org/spark/spark-3.3.1/spark-3.3.1-bin-hadoop3.tgz
+  
   $ tar -xvf spark-3.3.1-bin-hadoop3.tgz
+  
   <img width="632" alt="download_spark_2" src="https://user-images.githubusercontent.com/52802567/205380060-38fedaac-401f-42aa-87e3-fdfc10d2c003.PNG">
 
   
@@ -60,6 +62,7 @@
 ### Install JAVA
   Check whether java is available or not:
   $ which java
+  
   <img width="250" alt="java_install_0" src="https://user-images.githubusercontent.com/52802567/205387820-67379be3-f5b7-45b9-947f-cea30d289748.PNG">
   
   Install java8:
