@@ -58,13 +58,18 @@
   export PATH=$SPARK_HOME/sbin:$PATH
   
   <img width="526" alt="download_spark_3" src="https://user-images.githubusercontent.com/52802567/205380108-93ac0f90-4ef2-48ff-960a-4030b90243b7.PNG">
-
-### Install JAVA
-  Check whether java is available or not:
-  $ which java
   
+  Verify the installation
+  
+  $pyspark
+  $ which java
   <img width="250" alt="java_install_0" src="https://user-images.githubusercontent.com/52802567/205387820-67379be3-f5b7-45b9-947f-cea30d289748.PNG">
   
+  Note:
+  
+  If you can NOT start pyspark sucessfully due to JAVA_HOME is not set or java command not found, please install java and set JAVA_HOME.
+  
+  #### Install JAVA
   Install java8:
   $ sudo apt update
   $ sudo apt-get install openjdk-8-jdk
@@ -73,7 +78,13 @@
   <img width="376" alt="java_install_2" src="https://user-images.githubusercontent.com/52802567/205387895-41348db9-a588-4b10-910c-2255f38f5248.PNG">
 
   #set java related enviroment viriables
+  
   epxort JAVA_HOME=/usr/bin
+  
+  Start pyspark
+  
+  <img width="664" alt="start_spark" src="https://user-images.githubusercontent.com/52802567/205390660-432be9d4-ead5-4b8a-a40d-585a850ce19f.PNG">
+
   
 ## Presentation
 
