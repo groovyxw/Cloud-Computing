@@ -170,6 +170,8 @@
   Launch spark application
   
   $ spark-submit --jars /home/iqx/pyspark_script/spark-streaming-kafka-0-8-assembly_2.11-2.3.2.jar  --master spark://abc.def.ghi.jkl:7077 --deploy-mode client pyspark_script/spark_processor.py
+  
+  <img width="943" alt="spark-submit_final" src="https://user-images.githubusercontent.com/52802567/205432601-811a441b-fd98-4a56-aa52-4d3b969c2dfc.PNG">
 
   
   #### Kafka-python to create the events and consume the events 
@@ -206,4 +208,6 @@
 ## Reference
 https://kontext.tech/article/978/install-hadoop-332-in-wsl-on-windows
 https://kontext.tech/article/1044/install-spark-321-on-linux-or-wsl
+
+
 https://towardsdatascience.com/connecting-the-dots-python-spark-and-kafka-19e6beba6404
