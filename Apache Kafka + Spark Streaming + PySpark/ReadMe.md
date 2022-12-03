@@ -84,9 +84,6 @@
   <img width="398" alt="1_spark_java" src="https://user-images.githubusercontent.com/52802567/205414146-f68c400e-257d-45aa-a43a-2dfce13e707d.PNG">
 
 
-  #set java related enviroment viriables
-  
-  epxort JAVA_HOME=/usr
   
   #### Start pyspark
     
@@ -106,6 +103,7 @@
 
   
   Starting worker
+  
   $ start-slave.sh spark://34.168.242.211:7077
   
   <img width="669" alt="1_spark_start_worker" src="https://user-images.githubusercontent.com/52802567/205417414-85ed4057-59e7-4c88-ab61-2bab2ae7f24d.PNG">
@@ -117,17 +115,41 @@
 
   
 ### Starting Kafka
-  Downlaod kafka which is available at https://kafka.apache.org/downloads
+  #### Downlaod kafka which is available at https://kafka.apache.org/downloads
+  
   $ wget https://downloads.apache.org/kafka/3.3.1/kafka_2.12-3.3.1.tgz
+  
   $ tar -xvf kafka_2.12-3.3.1.tgz
   
   <img width="564" alt="2_kafka_install_0" src="https://user-images.githubusercontent.com/52802567/205414952-9c64a2ff-3cba-4503-9714-f9537ef07f4d.PNG">
 
-  Start Kafka Zookeeper
+  #### Start Kafka Zookeeper (Keep this terminal open)
+  
   $ cd kafka_2.12-3.3.1/
+  
   $ bin/zookeeper-server-start.sh config/zookeeper.properties
   
-  <img width="566" alt="2_kafka_install" src="https://user-images.githubusercontent.com/52802567/205414974-6b6f0bd6-b4c8-4a26-b249-3a0a6b282e00.PNG">
+  <img width="673" alt="kafka_zookeeper_start" src="https://user-images.githubusercontent.com/52802567/205417674-6840d0fc-d80c-400d-91ab-affa374a2e47.PNG">
+
+
+  #### Open a new terminal, Start Kafka broker  (Keep this terminal open)
+  
+  $ cd kafka_2.12-3.3.1/
+  
+  $ bin/kafka-server-start.sh config/server.properties
+  
+  <img width="676" alt="kafka_broker_start" src="https://user-images.githubusercontent.com/52802567/205417662-57d9b4df-3680-4c4f-84e6-1d65da6bd80f.PNG">
+
+  
+  #### Open another new terminal, Create Kafaka topics
+  
+  $ bin/kafka-topics.sh --create --topic input_recommend_product --bootstrap-server localhost:9092 --partitions 3 --replication-factor 1
+  
+  <img width="668" alt="2_kafka_create_topic" src="https://user-images.githubusercontent.com/52802567/205417683-687ff3c9-19f9-4667-b748-29f095d9b4d5.PNG">
+  
+  $ bin/kafka-topics.sh --bootstrap-server localhost:9092 --list
+  
+  <img width="536" alt="2_kafka_list_topic" src="https://user-images.githubusercontent.com/52802567/205417686-33334eef-d955-4093-8323-ac08dde25d92.PNG">
 
 
 ## Presentation
