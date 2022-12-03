@@ -47,7 +47,8 @@
   
   $ tar -xvf spark-3.3.1-bin-hadoop3.tgz
   
-  <img width="632" alt="download_spark_2" src="https://user-images.githubusercontent.com/52802567/205380060-38fedaac-401f-42aa-87e3-fdfc10d2c003.PNG">
+  <img width="572" alt="1_spark" src="https://user-images.githubusercontent.com/52802567/205414088-c2ca3ee1-29e8-4cc8-92dc-d18881c59c39.PNG">
+
 
   #### create a soft link
   $ ln -s /home/xwu/spark-3.3.1-bin-hadoop3 /home/xwu/spark
@@ -57,26 +58,31 @@
   export PATH=$SPARK_HOME/bin:$PATH
   export PATH=$SPARK_HOME/sbin:$PATH
   
-  <img width="526" alt="download_spark_3" src="https://user-images.githubusercontent.com/52802567/205380108-93ac0f90-4ef2-48ff-960a-4030b90243b7.PNG">
+  <img width="565" alt="1_spark_var" src="https://user-images.githubusercontent.com/52802567/205414109-da080729-7f6c-4685-9287-66c35d0070ff.PNG">
+
   
   #### Verify the installation
   
   $ pyspark
   $ which java
   
-  <img width="250" alt="java_install_0" src="https://user-images.githubusercontent.com/52802567/205387820-67379be3-f5b7-45b9-947f-cea30d289748.PNG">
   
+  <img width="312" alt="1_spark_verify" src="https://user-images.githubusercontent.com/52802567/205414128-1563fd75-4465-4e61-a542-95318b8e7761.PNG">
+
   Note:
   
   If you can NOT start pyspark sucessfully due to JAVA_HOME is not set or java command not found, please install java and set JAVA_HOME.
   
   #### Install JAVA
+  
   Install java8:
+  
   $ sudo apt update
+  
   $ sudo apt-get install openjdk-8-jdk
   
-  <img width="552" alt="java_install_1" src="https://user-images.githubusercontent.com/52802567/205387875-eb839c0a-9732-42bb-b437-80c357ad958e.PNG">
-  <img width="376" alt="java_install_2" src="https://user-images.githubusercontent.com/52802567/205387895-41348db9-a588-4b10-910c-2255f38f5248.PNG">
+  <img width="398" alt="1_spark_java" src="https://user-images.githubusercontent.com/52802567/205414146-f68c400e-257d-45aa-a43a-2dfce13e707d.PNG">
+
 
   #set java related enviroment viriables
   
