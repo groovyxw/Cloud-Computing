@@ -41,7 +41,7 @@
   
   Steps to produce and consume events using Kafka-Python.
 
-### Installing Spark which is availabe at https://spark.apache.org/downloads.html
+### Part One: Installing Spark which is availabe at https://spark.apache.org/downloads.html
   #### download the package and unpack it
   $ wget https://dlcdn.apache.org/spark/spark-3.3.1/spark-3.3.1-bin-hadoop3.tgz
   
@@ -114,7 +114,7 @@
   <img width="907" alt="1_spark_worker" src="https://user-images.githubusercontent.com/52802567/205417320-56861235-f0fb-46ea-830e-37d614f6bd62.PNG">
 
   
-### Starting Kafka
+### Part Two: Starting Kafka
   #### Downlaod kafka which is available at https://kafka.apache.org/downloads
   
   $ wget https://downloads.apache.org/kafka/3.3.1/kafka_2.12-3.3.1.tgz
@@ -150,6 +150,14 @@
   $ bin/kafka-topics.sh --bootstrap-server localhost:9092 --list
   
   <img width="536" alt="2_kafka_list_topic" src="https://user-images.githubusercontent.com/52802567/205417686-33334eef-d955-4093-8323-ac08dde25d92.PNG">
+
+### Part Three: Event Processing on Apache Spark (PySpark)
+  
+  #### Setup Spark
+  
+  
+  
+  #### Create and Submit the park Application
 
 
 ## Presentation
