@@ -50,10 +50,10 @@
   <img width="632" alt="download_spark_2" src="https://user-images.githubusercontent.com/52802567/205380060-38fedaac-401f-42aa-87e3-fdfc10d2c003.PNG">
 
   #### create a soft link
-  $ ln -s /home/cindy/cs570/spark-3.3.1-bin-hadoop3 /home/cindy/cs570/spark
+  $ ln -s /home/xwu/spark-3.3.1-bin-hadoop3 /home/xwu/spark
   
   #### set spark related environment varibales
-  SPARK_HOME="/home/cindy/cs570/spark"
+  export SPARK_HOME=/home/xwu/spark
   export PATH=$SPARK_HOME/bin:$PATH
   export PATH=$SPARK_HOME/sbin:$PATH
   
@@ -61,8 +61,9 @@
   
   #### Verify the installation
   
-  $pyspark
+  $ pyspark
   $ which java
+  
   <img width="250" alt="java_install_0" src="https://user-images.githubusercontent.com/52802567/205387820-67379be3-f5b7-45b9-947f-cea30d289748.PNG">
   
   Note:
@@ -79,13 +80,12 @@
 
   #set java related enviroment viriables
   
-  epxort JAVA_HOME=/usr/bin
+  epxort JAVA_HOME=/usr
   
   #### Start pyspark
-  
-  <img width="664" alt="start_spark" src="https://user-images.githubusercontent.com/52802567/205390660-432be9d4-ead5-4b8a-a40d-585a850ce19f.PNG">
+    
+  <img width="573" alt="1_spark_start" src="https://user-images.githubusercontent.com/52802567/205414037-13806bc1-6d06-4163-8aca-58d1a5894eb6.PNG">
 
-  
 ## Presentation
 
 ## Reference
