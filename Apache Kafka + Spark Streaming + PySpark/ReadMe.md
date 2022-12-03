@@ -156,12 +156,15 @@
   #### Setup Spark
   
   $ pip3 install msgpack
+  
   $ pip3 install kafka-python
   
   #### Create and Submit the park Application
   
   Create /home/xwu/pyspark_script/spark_processor.py
+  
   $ cd
+  
   $ vi pyspark_script/spark_processor.py
   
   Launch spark application
@@ -170,20 +173,24 @@
 
   
   #### Kafka-python to create the events and consume the events 
+  
   In terminal 1:
+  
   $ cd kafka_2.12-3.3.1/
   $ bin/zookeeper-server-start.sh config/zookeeper.properties
   
   In terminal 2:
+  
   $ cd kafka_2.12-3.3.1/
   $ bin/kafka-server-start.sh config/server.properties
   
   In terminal 3, create consumer.py, then run it:
-  $ vi consumer.py
   
+  $ vi consumer.py
   $ python3 consumer.py
   
   In terminal 4, create producer.py, then run it:
+  
   $ vi producer.py
   $ python3 producer.py
   
