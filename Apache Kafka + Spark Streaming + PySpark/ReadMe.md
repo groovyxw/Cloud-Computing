@@ -91,6 +91,44 @@
   #### Start pyspark
     
   <img width="573" alt="1_spark_start" src="https://user-images.githubusercontent.com/52802567/205414037-13806bc1-6d06-4163-8aca-58d1a5894eb6.PNG">
+  
+  Start the master in the local machine
+  
+  $ start-master.sh
+  
+  <img width="665" alt="1_spark_start_master" src="https://user-images.githubusercontent.com/52802567/205417403-03310a49-6c65-4cc2-9dc1-524dc4ebd202.PNG">
+
+  
+  In your browser, paste and go the link http://34.168.242.211:8080 
+  
+  
+  <img width="915" alt="1_spark_master" src="https://user-images.githubusercontent.com/52802567/205417329-3a076370-c391-4aaf-b991-39933463c8f2.PNG">
+
+  
+  Starting worker
+  $ start-slave.sh spark://34.168.242.211:7077
+  
+  <img width="669" alt="1_spark_start_worker" src="https://user-images.githubusercontent.com/52802567/205417414-85ed4057-59e7-4c88-ab61-2bab2ae7f24d.PNG">
+
+  
+  In the browser (http://34.168.242.211:8080 ), you can see one alive worker as bellow:
+  
+  <img width="907" alt="1_spark_worker" src="https://user-images.githubusercontent.com/52802567/205417320-56861235-f0fb-46ea-830e-37d614f6bd62.PNG">
+
+  
+### Starting Kafka
+  Downlaod kafka which is available at https://kafka.apache.org/downloads
+  $ wget https://downloads.apache.org/kafka/3.3.1/kafka_2.12-3.3.1.tgz
+  $ tar -xvf kafka_2.12-3.3.1.tgz
+  
+  <img width="564" alt="2_kafka_install_0" src="https://user-images.githubusercontent.com/52802567/205414952-9c64a2ff-3cba-4503-9714-f9537ef07f4d.PNG">
+
+  Start Kafka Zookeeper
+  $ cd kafka_2.12-3.3.1/
+  $ bin/zookeeper-server-start.sh config/zookeeper.properties
+  
+  <img width="566" alt="2_kafka_install" src="https://user-images.githubusercontent.com/52802567/205414974-6b6f0bd6-b4c8-4a26-b249-3a0a6b282e00.PNG">
+
 
 ## Presentation
 
