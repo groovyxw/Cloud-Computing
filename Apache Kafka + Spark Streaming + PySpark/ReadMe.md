@@ -64,6 +64,7 @@
   #### Verify the installation
   
   $ pyspark
+  
   $ which java
   
   
@@ -158,6 +159,8 @@
   $ pip3 install msgpack
   
   $ pip3 install kafka-python
+  
+  $ wget https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-kafka-0-8-assembly_2.11/2.3.2/spark-streaming-kafka-0-8-assembly_2.11-2.3.2.jar
   
   #### Create and Submit the park Application
   
