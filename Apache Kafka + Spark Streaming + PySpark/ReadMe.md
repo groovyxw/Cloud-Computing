@@ -160,6 +160,10 @@
   
   $ pip3 install kafka-python
   
+  if pip3 command not found,
+  
+  $ sudo apt install python3-pip
+  
   $ wget https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-kafka-0-8-assembly_2.11/2.3.2/spark-streaming-kafka-0-8-assembly_2.11-2.3.2.jar
   
   #### Create and Submit the park Application
