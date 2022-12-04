@@ -135,6 +135,10 @@ So I re- setup the spark enviroment as below:
 ##### ubuntu 20.04 LTS
 
 <img width="706" alt="pass_env_3" src="https://user-images.githubusercontent.com/52802567/205481637-9434fac9-ff19-433d-b09c-97874253a224.PNG">
+##### GCP VPC firewall setting
+
+<img width="695" alt="firewall-setting" src="https://user-images.githubusercontent.com/52802567/205487719-c9524399-024e-4eee-98e9-a5fd4f169b20.PNG">
+
 
 ##### spark-3.3.1-bin-hadoop3.tgz
   groupId: org.apache.spark
