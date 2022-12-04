@@ -306,3 +306,9 @@ https://spark.apache.org/docs/latest/index.html#running-the-examples-and-shell
 https://spark.apache.org/docs/latest/submitting-applications.html
 
 https://spark.apache.org/docs/latest/structured-streaming-kafka-integration.html
+
+Spark API interface:
+
+https://spark.apache.org/docs/latest/api/python/reference/pyspark.streaming.html
+
+
