@@ -55,8 +55,11 @@
   
   #### set spark related environment varibales
   export SPARK_HOME=/home/xwu/spark
+  
   export PATH=$SPARK_HOME/bin:$PATH
+  
   export PATH=$SPARK_HOME/sbin:$PATH
+  
   
   <img width="565" alt="1_spark_var" src="https://user-images.githubusercontent.com/52802567/205414109-da080729-7f6c-4685-9287-66c35d0070ff.PNG">
 
@@ -83,8 +86,14 @@
   $ sudo apt-get install openjdk-8-jdk
   
   <img width="398" alt="1_spark_java" src="https://user-images.githubusercontent.com/52802567/205414146-f68c400e-257d-45aa-a43a-2dfce13e707d.PNG">
+  
+  Check java installation path:
+  
+  $ update-alternatives --list java
+  
+  <img width="280" alt="set_java_home" src="https://user-images.githubusercontent.com/52802567/205476984-920bc0ef-8527-4b72-a4ca-413e835dd35e.PNG">
 
-
+  $ export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre
   
   #### Start pyspark
     
