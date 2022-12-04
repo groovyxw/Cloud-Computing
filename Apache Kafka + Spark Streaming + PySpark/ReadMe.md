@@ -124,8 +124,15 @@
   <img width="907" alt="1_spark_worker" src="https://user-images.githubusercontent.com/52802567/205417320-56861235-f0fb-46ea-830e-37d614f6bd62.PNG">
 
 #### Run Spark Streaming Word Count example
+
 Due to compatibility issue b/w different tools(java, python, scala, spark, etc), I can not run word count example successfully.
 So I re- setup the spark enviroment as below:
+
+##### GCP platform CE VM
+##### ubuntu 20.04 LTS
+
+<img width="706" alt="pass_env_3" src="https://user-images.githubusercontent.com/52802567/205481637-9434fac9-ff19-433d-b09c-97874253a224.PNG">
+
 ##### spark-3.3.1-bin-hadoop3.tgz
   groupId: org.apache.spark
   artifactId: spark-core_2.12
@@ -140,10 +147,7 @@ So I re- setup the spark enviroment as below:
 
 <img width="262" alt="pass_env_2" src="https://user-images.githubusercontent.com/52802567/205481551-5e148250-fba9-49cf-bbbb-16c6c3927310.PNG">
 
-##### GCP platform CE VM
-##### ubuntu 20.04 LTS
 
-<img width="706" alt="pass_env_3" src="https://user-images.githubusercontent.com/52802567/205481637-9434fac9-ff19-433d-b09c-97874253a224.PNG">
 
 ##### Run Networking WordCount example in python sucessfully:
 Open a terminal 1:
