@@ -145,7 +145,7 @@ So I re- setup the spark enviroment as below:
 
 <img width="706" alt="pass_env_3" src="https://user-images.githubusercontent.com/52802567/205481637-9434fac9-ff19-433d-b09c-97874253a224.PNG">
 
-##### Run Networking WordCount example in python:
+##### Run Networking WordCount example in python sucessfully:
 Open a terminal 1:
 $ nc -lk 9999
 
@@ -264,8 +264,18 @@ $ ./bin/spark-submit examples/src/main/python/streaming/network_wordcount.py loc
 ## Presentation
 
 ## Reference
+Spark:
+
 https://kontext.tech/article/978/install-hadoop-332-in-wsl-on-windows
 https://kontext.tech/article/1044/install-spark-321-on-linux-or-wsl
 
+Spark Streaming:
+
+https://spark.apache.org/docs/latest/streaming-programming-guide.html
+https://spark.apache.org/docs/latest/index.html#running-the-examples-and-shell
+
+Kafka:
 
 https://towardsdatascience.com/connecting-the-dots-python-spark-and-kafka-19e6beba6404
+
+
