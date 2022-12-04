@@ -232,7 +232,9 @@ Final result:
 
   
   Launch spark application
+  
   Open a terminal 1:
+  
   $ start-master.sh
   
   Open another terminal 2:
