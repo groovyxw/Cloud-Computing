@@ -151,6 +151,7 @@ So I re- setup the spark enviroment as below:
 
 ##### Run Networking WordCount example in python sucessfully:
 Open a terminal 1:
+
 $ nc -lk 9999
 
 Open another terminal 2:
@@ -160,8 +161,10 @@ $ ./bin/spark-submit examples/src/main/python/streaming/network_wordcount.py loc
 
 <img width="885" alt="stream_wordcount_1" src="https://user-images.githubusercontent.com/52802567/205481976-7d24bb18-f89a-4e05-ac22-1bebe048deba.PNG">
 
+Final result:
 
-<img width="941" alt="pass_env_result" src="https://user-images.githubusercontent.com/52802567/205481982-b794ad6a-8baa-4e74-aa22-554af7646e32.PNG">
+<img width="942" alt="pass_env_result" src="https://user-images.githubusercontent.com/52802567/205482422-30c6c7a8-40f9-4f81-8358-f7fcab9377e5.PNG">
+
 
 ### Part Two: Starting Kafka
   #### Downlaod kafka which is available at https://kafka.apache.org/downloads
