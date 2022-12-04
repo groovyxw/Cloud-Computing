@@ -282,4 +282,4 @@ Kafka:
 
 https://towardsdatascience.com/connecting-the-dots-python-spark-and-kafka-19e6beba6404
 
-
+https://docs.confluent.io/kafka-clients/python/current/overview.html#ak-python
