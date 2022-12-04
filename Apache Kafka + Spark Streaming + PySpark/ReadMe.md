@@ -17,6 +17,7 @@
   
   Download: https://kafka.apache.org/downloads
   
+  #### Implementation: Please see details in "Step3 Part Two"
 
 ## Step2: Study the basic concepts about Spark Streaming by this [link](https://spark.apache.org/docs/latest/streaming-programming-guide.html)
 
@@ -30,7 +31,9 @@
   
   <img width="287" alt="3" src="https://user-images.githubusercontent.com/52802567/205167081-49e541df-4dfc-4bcf-8368-c59c47f5fda8.PNG">
 
-
+  #### Implementation: Please see details in "Step3 Part One"
+  
+  
 ## Step3: Connecting the Dots (Python, Spark, and Kafka)
 
   Discuss the steps to perform to setup Apache Spark in a Linux environment.
