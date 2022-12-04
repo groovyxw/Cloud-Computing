@@ -274,11 +274,13 @@ Final result:
 Spark:
 
 https://kontext.tech/article/978/install-hadoop-332-in-wsl-on-windows
+
 https://kontext.tech/article/1044/install-spark-321-on-linux-or-wsl
 
 Spark Streaming:
 
 https://spark.apache.org/docs/latest/streaming-programming-guide.html
+
 https://spark.apache.org/docs/latest/index.html#running-the-examples-and-shell
 
 Kafka:
@@ -286,3 +288,7 @@ Kafka:
 https://towardsdatascience.com/connecting-the-dots-python-spark-and-kafka-19e6beba6404
 
 https://docs.confluent.io/kafka-clients/python/current/overview.html#ak-python
+
+Spark python kafka:
+
+https://spark.apache.org/docs/latest/structured-streaming-kafka-integration.html
