@@ -224,13 +224,33 @@ Final result:
   $ cd
   
   $ vi pyspark_script/spark_processor.py
+  <img width="630" alt="spark_processor" src="https://user-images.githubusercontent.com/52802567/205487075-8d7adb96-1925-4a97-8b81-a0ea5768d903.PNG">
+
   
   Launch spark application
+  Open a terminal 1:
+  $ start-master.sh
   
-  $ spark-submit --jars /home/iqx/pyspark_script/spark-streaming-kafka-0-8-assembly_2.11-2.3.2.jar  --master spark://abc.def.ghi.jkl:7077 --deploy-mode client pyspark_script/spark_processor.py
+  Open another terminal 2:
   
-  <img width="943" alt="spark-submit_final" src="https://user-images.githubusercontent.com/52802567/205432601-811a441b-fd98-4a56-aa52-4d3b969c2dfc.PNG">
+  $ ./spark/bin/spark-submit --jars myrun/spark-streaming-kafka-0-10_2.12-3.3.1.jar --master spark://34.70.211.224:7077 --deploy-mode client myrun/spark_processor.py
+  
+  Connect to the master successfully, but failed due to KafkaUtils not defined. 
+  
+  <img width="956" alt="Sparkstreaming_connection" src="https://user-images.githubusercontent.com/52802567/205487252-597ebc79-afdb-4de6-9534-9cb9c4b74985.PNG">
 
+
+  <img width="941" alt="Sparkstreaming_connection_2_error" src="https://user-images.githubusercontent.com/52802567/205487265-d55c9dcd-186c-4d6c-a172-dbdf3fbdd9a3.PNG">
+
+  
+  spark-streaming-kafka-0-10 doesn't support python, spark-streaming-kafka-0-8 supports python, but spark version need roll back to 2.1.* version.
+  Please refer to this [link](https://stackoverflow.com/questions/61891762/spark-3-x-integration-with-kafka-in-python) for details.
+  
+  <img width="693" alt="sparkstream-kafka-intergration-version-issue" src="https://user-images.githubusercontent.com/52802567/205487192-c005fad0-ffb4-4b03-b9be-e8f394307e30.PNG">
+  
+  <img width="641" alt="ff" src="https://user-images.githubusercontent.com/52802567/205487229-03fb413e-c48c-4b2b-8455-d96330d069d3.PNG">
+
+  
   
   #### Kafka-python to create the events and consume the events 
   
@@ -284,6 +304,8 @@ Spark Streaming:
 https://spark.apache.org/docs/latest/streaming-programming-guide.html
 
 https://spark.apache.org/docs/latest/index.html#running-the-examples-and-shell
+
+https://stackoverflow.com/questions/61891762/spark-3-x-integration-with-kafka-in-python
 
 Kafka:
 
