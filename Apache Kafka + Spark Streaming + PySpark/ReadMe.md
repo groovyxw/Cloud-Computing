@@ -224,6 +224,7 @@ Final result:
   $ cd
   
   $ vi pyspark_script/spark_processor.py
+  
   <img width="630" alt="spark_processor" src="https://user-images.githubusercontent.com/52802567/205487075-8d7adb96-1925-4a97-8b81-a0ea5768d903.PNG">
 
   
