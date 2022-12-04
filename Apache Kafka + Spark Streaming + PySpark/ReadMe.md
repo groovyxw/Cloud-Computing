@@ -186,28 +186,35 @@
   In terminal 1:
   
   $ cd kafka_2.12-3.3.1/
+  
   $ bin/zookeeper-server-start.sh config/zookeeper.properties
   
   In terminal 2:
   
   $ cd kafka_2.12-3.3.1/
+  
   $ bin/kafka-server-start.sh config/server.properties
   
   In terminal 3, create consumer.py, then run it:
   
   $ vi consumer.py
+  
   $ python3 consumer.py
   
   In terminal 4, create producer.py, then run it:
   
   $ vi producer.py
+  
   $ python3 producer.py
   
   Finally, you can see the event created by producer.py in terminal 3.
   
   <img width="949" alt="kafka_producer_consumer_final" src="https://user-images.githubusercontent.com/52802567/205430386-5f0c4e4b-5134-4e2a-8dc3-ff4b79c844b4.PNG">
 
+  Code snippet as below:
   
+  <img width="630" alt="code_snippet" src="https://user-images.githubusercontent.com/52802567/205476122-00f3e0ec-13eb-47d0-b345-e27d27eb8498.PNG">
+
 
 
 ## Presentation
