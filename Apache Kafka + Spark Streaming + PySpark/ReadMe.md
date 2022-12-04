@@ -123,7 +123,42 @@
   
   <img width="907" alt="1_spark_worker" src="https://user-images.githubusercontent.com/52802567/205417320-56861235-f0fb-46ea-830e-37d614f6bd62.PNG">
 
+#### Run Spark Streaming Word Count example
+Due to compatibility issue b/w different tools(java, python, scala, spark, etc), I can not run word count example successfully.
+So I re- setup the spark enviroment as below:
+##### spark-3.3.1-bin-hadoop3.tgz
+  groupId: org.apache.spark
+  artifactId: spark-core_2.12
+  version: 3.3.1
+  scala 2.12
+  python 3.8.10
   
+  <img width="839" alt="pass_env_1" src="https://user-images.githubusercontent.com/52802567/205481514-98270e7f-cc04-4e84-9490-50e2086008c5.PNG">
+
+  
+##### java 11
+
+<img width="262" alt="pass_env_2" src="https://user-images.githubusercontent.com/52802567/205481551-5e148250-fba9-49cf-bbbb-16c6c3927310.PNG">
+
+##### GCP platform CE VM
+##### ubuntu 20.04 LTS
+
+<img width="706" alt="pass_env_3" src="https://user-images.githubusercontent.com/52802567/205481637-9434fac9-ff19-433d-b09c-97874253a224.PNG">
+
+##### Run Networking WordCount example in python:
+Open a terminal 1:
+$ nc -lk 9999
+
+Open another terminal 2:
+
+$ ./bin/spark-submit examples/src/main/python/streaming/network_wordcount.py localhost 9999
+
+
+<img width="885" alt="stream_wordcount_1" src="https://user-images.githubusercontent.com/52802567/205481976-7d24bb18-f89a-4e05-ac22-1bebe048deba.PNG">
+
+
+<img width="941" alt="pass_env_result" src="https://user-images.githubusercontent.com/52802567/205481982-b794ad6a-8baa-4e74-aa22-554af7646e32.PNG">
+
 ### Part Two: Starting Kafka
   #### Downlaod kafka which is available at https://kafka.apache.org/downloads
   
