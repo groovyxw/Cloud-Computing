@@ -253,7 +253,7 @@ Final result:
   <img width="941" alt="Sparkstreaming_connection_2_error" src="https://user-images.githubusercontent.com/52802567/205487265-d55c9dcd-186c-4d6c-a172-dbdf3fbdd9a3.PNG">
 
   
-  spark-streaming-kafka-0-10 doesn't support python, spark-streaming-kafka-0-8 supports python, but spark version need roll back to 2.1.* version.
+  spark-streaming-kafka-0-10 doesn't support python, spark-streaming-kafka-0-8 supports python, but spark version need roll back to 2.* version.
   Please refer to this [link](https://stackoverflow.com/questions/61891762/spark-3-x-integration-with-kafka-in-python) for details.
   
   <img width="693" alt="sparkstream-kafka-intergration-version-issue" src="https://user-images.githubusercontent.com/52802567/205487192-c005fad0-ffb4-4b03-b9be-e8f394307e30.PNG">
