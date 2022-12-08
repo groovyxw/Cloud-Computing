@@ -1,4 +1,4 @@
-# Movie Recommandation System
+# Movie Recommandation System with Spark MLib
 ## Description
 Recommender System is an information filtering tool that seeks to predict which product a user will like, and based on that, recommends a few products to the users.
 The two widely used approaches for building a recommender system are content-based filtering (CBF) and collaborative filtering (CF).
