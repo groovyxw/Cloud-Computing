@@ -131,7 +131,7 @@
 Due to compatibility issue b/w different tools(java, python, scala, spark, etc), I can not run word count example successfully.
 So I re- setup the spark enviroment as below:
 
-##### GCP platform CE VM
+##### GCP platform Compute Engine VM instance
 ##### ubuntu 20.04 LTS
 
 <img width="706" alt="pass_env_3" src="https://user-images.githubusercontent.com/52802567/205481637-9434fac9-ff19-433d-b09c-97874253a224.PNG">
@@ -260,7 +260,14 @@ Final result:
   
   <img width="641" alt="ff" src="https://user-images.githubusercontent.com/52802567/205487229-03fb413e-c48c-4b2b-8455-d96330d069d3.PNG">
 
+  Solution 1: Roll back spark to oder version 2.3.0
+  Setup env:
+  GCP CE VM instance
+  ubuntu 18.04, python2.7, spark2.3.0, java8, kafaka_2.11-2.0.0
+  Run spark_processor.py sunccessfully:
   
+  <img width="950" alt="sparkstream-run" src="https://user-images.githubusercontent.com/52802567/206573939-44d5ae91-b417-4503-a984-4bf77fb1f8f8.PNG">
+
   
   #### Kafka-python to create the events and consume the events 
   
