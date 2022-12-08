@@ -261,10 +261,28 @@ Final result:
   <img width="641" alt="ff" src="https://user-images.githubusercontent.com/52802567/205487229-03fb413e-c48c-4b2b-8455-d96330d069d3.PNG">
 
   Solution 1: Roll back spark to oder version 2.3.0
+  
   Setup env:
-  GCP CE VM instance
-  ubuntu 18.04, python2.7, spark2.3.0, java8, kafaka_2.11-2.0.0
-  Run spark_processor.py sunccessfully:
+  
+  GCP CE VM instance with ubuntu 18.04, python2.7, spark2.3.0, java8, kafaka_2.11-2.0.0
+  
+  How to run?
+  
+  On terminal 1, start spark master server:
+  
+  $ start-master.sh
+  
+  On terminal 2, start kafka zookeeper
+  
+  $ bin/zookeeper-server-start.sh config/zookeeper.properties
+  
+  On terminal 3, start kafka broker server
+  
+  $ bin/kafka-server-start.sh config/server.properties
+  
+  On terminal 4, run spark_processor.py
+  
+  $ spark-submit --jars test/spark-streaming-kafka-0-8-assembly_2.11-2.3.2.jar  --master spark://34.171.238.51:7077 --deploy-mode client test/spark_processor.py
   
   <img width="950" alt="sparkstream-run" src="https://user-images.githubusercontent.com/52802567/206573939-44d5ae91-b417-4503-a984-4bf77fb1f8f8.PNG">
 
