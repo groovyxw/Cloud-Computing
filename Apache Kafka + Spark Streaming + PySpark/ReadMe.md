@@ -285,7 +285,8 @@ Final result:
   $ spark-submit --jars test/spark-streaming-kafka-0-8-assembly_2.11-2.3.2.jar  --master spark://34.171.238.51:7077 --deploy-mode client test/spark_processor.py
   
   <img width="950" alt="sparkstream-run" src="https://user-images.githubusercontent.com/52802567/206573939-44d5ae91-b417-4503-a984-4bf77fb1f8f8.PNG">
-
+  
+  Note: Need to double check the detailed process errors.
   
   #### Kafka-python to create the events and consume the events 
   
@@ -324,7 +325,7 @@ Final result:
 
 
 ## Presentation
-
+[Apache Kafka + Spark Streaming + PySpark](https://docs.google.com/presentation/d/15mZkiXKTf0mnc_8JElR2sj94DZvh-wToCwkBafypIUM/edit?usp=sharing)
 ## Reference
 Spark:
 
