@@ -42,7 +42,7 @@ Family and Friend information:
 
 
 #### 4. Create program file pyspark_graphX.py
-Please refer to [pyspark_graphX.py]()
+Please refer to [pyspark_graphX.py](https://github.com/groovyxw/Cloud-Computing/blob/main/Apache%20Spark%20%2B%20GraphFramse%20%2B%20GraphX/pyspark_graphX.py)
 
 
 #### 5. Run
@@ -53,13 +53,6 @@ $ spark-submit --packages graphframes:graphframes:0.8.2-spark3.1-s_2.12 pyspark_
 
 
 Note:
-
-In case, you need to install numpy,
-
-$ sudo apt install python3-pip
-$ pip3 install numpy
-
-
 graphframes versions available at:
 https://spark-packages.org/package/graphframes/graphframes
 
@@ -86,7 +79,7 @@ BFS:
 <img width="477" alt="result6" src="https://user-images.githubusercontent.com/52802567/207849103-590da06e-3751-4362-a73b-03453b23031d.PNG">
 
 #### 7. Documentation
-[Pyspark_GraphX.pdf]()
+[PySpark_GraphX.pdf](https://github.com/groovyxw/Cloud-Computing/blob/main/Apache%20Spark%20%2B%20GraphFramse%20%2B%20GraphX/PySpark_GraphX.pdf)
 
 #### 8. References
 https://spark-packages.org/package/graphframes/graphframes
