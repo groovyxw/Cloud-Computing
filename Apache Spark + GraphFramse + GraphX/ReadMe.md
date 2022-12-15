@@ -23,6 +23,7 @@ Family and Friend information:
 ## How to implement?
 
 #### 1. Create GCP project and compute engine vm instance
+
 <img width="688" alt="gcp-1" src="https://user-images.githubusercontent.com/52802567/207848337-b78a7a1d-e446-480e-bd14-be3bdb510250.PNG">
 
 
@@ -41,7 +42,7 @@ Family and Friend information:
 
 
 #### 4. Create program file pyspark_graphX.py
-
+Please refer to [pyspark_graphX.py]()
 
 
 #### 5. Run
@@ -69,23 +70,26 @@ GraphFrame:
 <img width="115" alt="result1" src="https://user-images.githubusercontent.com/52802567/207848853-be938968-7c5d-410d-b18a-4959e8459f46.PNG">
 
 TriangleCount:
+
 <img width="93" alt="result2" src="https://user-images.githubusercontent.com/52802567/207848942-619b300c-03e2-4cd6-9540-50cc7cede208.PNG">
+
 <img width="202" alt="result3" src="https://user-images.githubusercontent.com/52802567/207848960-8e3dd96e-b86e-405b-ba23-4465b54361f6.PNG">
 
 PageRank:
+
 <img width="236" alt="result4" src="https://user-images.githubusercontent.com/52802567/207849011-27e750ba-d852-4a65-bd96-ebd2ef5bd7d7.PNG">
+
 <img width="155" alt="result5" src="https://user-images.githubusercontent.com/52802567/207849066-5a9d9787-54e7-4ea4-add9-401fdb411251.PNG">
 
 BFS:
+
 <img width="477" alt="result6" src="https://user-images.githubusercontent.com/52802567/207849103-590da06e-3751-4362-a73b-03453b23031d.PNG">
 
 #### 7. Documentation
 [Pyspark_GraphX.pdf]()
 
 #### 8. References
-
 https://spark-packages.org/package/graphframes/graphframes
-
 https://towardsdatascience.com/graphframes-in-jupyter-a-practical-guide-9b3b346cebc5#:~:text=The%20functionality%20of%20GraphFrames%20and,browsing%20through%20the%20API%20documentation.
 
 https://hc.labnet.sfbu.edu/~henry/sfbu/course/pyspark_sql_recipes/graphframes/slide/graphx.html
