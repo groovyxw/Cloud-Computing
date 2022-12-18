@@ -78,7 +78,9 @@ BFS:
 <img width="477" alt="result6" src="https://user-images.githubusercontent.com/52802567/207849103-590da06e-3751-4362-a73b-03453b23031d.PNG">
 
 #### 7. Documentation
+
 [PySpark_GraphX.pdf](https://github.com/groovyxw/Cloud-Computing/blob/main/Apache%20Spark%20%2B%20GraphFrame%20%2B%20GraphX/PySpark_GraphX.pdf)
+
 [Google Slide](https://docs.google.com/presentation/d/1hr42_Cqj0p4ZKSQyTSw0BZ9PAC0CuB2qiKRTmfj002M/edit?usp=sharing)
 
 #### 8. References
