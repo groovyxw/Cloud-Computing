@@ -1,4 +1,4 @@
-# PySpark: DataFrames / SparkSQL + GraphFrames / GraphX
+# PySpark: DataFrames/SparkSQL + GraphFrames/GraphX
 
 GraphFrame mainly provides the following built-in algorithms:
 
