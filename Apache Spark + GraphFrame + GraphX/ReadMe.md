@@ -79,6 +79,7 @@ BFS:
 
 #### 7. Documentation
 [PySpark_GraphX.pdf](https://github.com/groovyxw/Cloud-Computing/blob/main/Apache%20Spark%20%2B%20GraphFrame%20%2B%20GraphX/PySpark_GraphX.pdf)
+[Google Slide](https://docs.google.com/presentation/d/1hr42_Cqj0p4ZKSQyTSw0BZ9PAC0CuB2qiKRTmfj002M/edit?usp=sharing)
 
 #### 8. References
 https://spark-packages.org/package/graphframes/graphframes
