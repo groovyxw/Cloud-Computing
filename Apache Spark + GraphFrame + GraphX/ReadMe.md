@@ -30,6 +30,9 @@ Family and Friend information:
 
 
 #### 2. Install pyspark and java 11
+$ wget <pysaprk-version>
+$ tar -xvf <pyspark-version>
+  
 $ sudo apt update
 $ sudo apt-get install openjdk-11-jdk
 
