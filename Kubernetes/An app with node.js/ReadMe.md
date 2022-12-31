@@ -20,6 +20,13 @@ https://hc.labnet.sfbu.edu/~henry/sfbu/course/javascript/node_js/course/nodescho
 
 https://hc.labnet.sfbu.edu/~henry/sfbu/course/kubernetes_in_action/first_step/slide/Creating_a_trivial_Nodejs_app.html
 
+HTTP SERVER URL parsing:
+https://hc.labnet.sfbu.edu/~henry/sfbu/course/javascript/node_js/course/nodeschool/learnyounode/http_server.html
+https://www.tutsmake.com/javascript-compare-strings-examples/
+https://hc.labnet.sfbu.edu/~henry/sfbu/course/javascript/node_js/course/nodeschool/learnyounode/http_json_api_server.html
+https://www.w3schools.com/jsref/jsref_split.asp
+
+
 node.js install
 https://github.com/nodesource/distributions
 
