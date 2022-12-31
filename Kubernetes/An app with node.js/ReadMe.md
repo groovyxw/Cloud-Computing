@@ -23,4 +23,5 @@ https://hc.labnet.sfbu.edu/~henry/sfbu/course/kubernetes_in_action/first_step/sl
 node.js install
 https://github.com/nodesource/distributions
 
-
+Install Kubectl
+https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
