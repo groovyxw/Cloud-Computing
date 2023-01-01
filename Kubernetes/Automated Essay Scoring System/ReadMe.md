@@ -8,7 +8,9 @@
 
 ## Result
 
-## References
-
 ## Documentation
+
+## References
+[hints](https://hc.labnet.sfbu.edu/~henry/sfbu/course/kubernetes_in_action/first_step/slide/zizhuo_huang_final_project.html)
+
 
