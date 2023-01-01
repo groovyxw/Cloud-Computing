@@ -12,13 +12,20 @@
 [First App on Kubernetes](https://docs.google.com/presentation/d/1fFFoXfV7-9kC7SosEfDibOQjyhXWJW7ijyrXQBi0bNQ/edit?usp=sharing)
 
 Please refer to this [pdf](https://github.com/groovyxw/Cloud-Computing/blob/main/Kubernetes/An%20app%20with%20node.js/First_App_on_Kubernetes.pdf) for details.
-## Install Kubernetes
 
-## Run Application
+## Steps
 
-## Upload the docker image to the Docker Hub
+1. Create GCP vm compute engine vm instance
 
-## Install nodejs and npm
+2. Install Kubernetes
+
+3. Run Application
+
+4. Upload the docker image to the Docker Hub
+
+## Appendix
+
+#### Install nodejs and npm
 
 $ curl -fsSL https://deb.nodesource.com/setup_19.x | sudo -E bash -
 
@@ -28,7 +35,7 @@ $ node --version
 
 $ npm --version
 
-## Reference
+## References
 
 JavaScript JSON
 
