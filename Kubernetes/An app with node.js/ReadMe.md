@@ -54,5 +54,6 @@ https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
 
 Kubernetes concepts:
 https://kubernetes.io/docs/concepts/
+https://hc.labnet.sfbu.edu/~henry/sfbu/course/cloud_computing/kubernetes/slide/index_slide.html
 
 
