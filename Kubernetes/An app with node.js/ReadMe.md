@@ -1,6 +1,6 @@
 # First Node.js APP on Kubernetes
 
-## Basic concepts
+## Basic concepts about Kunbernetes, Docker and Container
 <img width="338" alt="kubernetes" src="https://user-images.githubusercontent.com/52802567/210157012-3b19c189-0721-4e1e-a5b4-171f1f046d92.PNG">
 
 
