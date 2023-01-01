@@ -10,11 +10,9 @@
 
 ## Documentation
 
-Google slide:
+Google slide: [First App on Kubernetes](https://docs.google.com/presentation/d/1fFFoXfV7-9kC7SosEfDibOQjyhXWJW7ijyrXQBi0bNQ/edit?usp=sharing)
 
-[First App on Kubernetes](https://docs.google.com/presentation/d/1fFFoXfV7-9kC7SosEfDibOQjyhXWJW7ijyrXQBi0bNQ/edit?usp=sharing)
-
-Please refer to this [pdf](https://github.com/groovyxw/Cloud-Computing/blob/main/Kubernetes/An%20app%20with%20node.js/First_App_on_Kubernetes.pdf) for details.
+Please refer to this [pdf](https://github.com/groovyxw/Cloud-Computing/blob/main/Kubernetes/An%20app%20with%20node.js/First_App_on_Kubernetes.pdf) for more  details.
 
 ## Steps
 
