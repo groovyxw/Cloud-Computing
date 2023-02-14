@@ -1,0 +1,13 @@
+version: "2.6"
+services:
+  ziptoweather:
+    build: ./zipcodeToWeather
+    container_name: ziptoweather
+    ports:
+      - '8080:8080'
+  citytozip:
+    build: ./cityToZipcode
+    ports:
+      - '5000:5000'
+    depends_on:
+      - ziptoweather
