@@ -45,4 +45,5 @@ docker compose down
 
 
 ## Results and Screenshots
-
+## Hints
+If you met "Connection permission error", please run "sudo docker compose" commands.
